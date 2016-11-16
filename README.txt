@@ -2,13 +2,17 @@
 
 USAGE:
 
-   ./np  [-d <string>] [-m <string>] [-q] [--] [--version] [-h] <string>
+   ./np  [-d <string>] [-k <string>] [-m <string>] [-q] [--] [--version]
+         [-h] <string>
 
 
 Where:
 
    -d <string>,  --directory <string>
      Directory to create project folder
+
+   -k <string>,  --maketemplate <string>
+     Template file (makefile)
 
    -m <string>,  --maintemplate <string>
      Template file (main.cpp)

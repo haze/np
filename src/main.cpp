@@ -84,6 +84,7 @@ int main(int argc, char** argv) {
     TCLAP::SwitchArg quiet("q", "quiet", "Print no output", cmd, false);
     TCLAP::UnlabeledValueArg<std::string> projectName("name", "project name", true, "unnamed project", "string");
     cmd.add(templateFileArg);
+    cmd.add(templateMakeArg);
     cmd.add(pathArg);
     cmd.add(projectName);
     cmd.parse(argc, argv);
